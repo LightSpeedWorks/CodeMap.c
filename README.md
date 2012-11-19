@@ -28,5 +28,7 @@ main()
 }
 ```
 
+See also: https://github.com/LightSpeedC/c-codemap-lib/blob/master/doc/codemap.xls
+
 That's all.
 
