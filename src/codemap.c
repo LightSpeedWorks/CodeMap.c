@@ -210,7 +210,7 @@ CodeMap_showCount
 文字コードマッピングのカウント値を表示する
 ******************************************************************************************
 */
-int CodeMap_showCount()
+void CodeMap_showCount()
 {
   Mem_showCount();
 }
