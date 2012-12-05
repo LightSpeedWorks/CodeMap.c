@@ -6,7 +6,7 @@ https://github.com/LightSpeedC/c-codemap-lib#readme
 
 Usage:
 
-```
+```c
 #include "codemap.h"
 
 main()
