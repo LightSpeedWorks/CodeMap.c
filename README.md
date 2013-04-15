@@ -10,29 +10,30 @@ Character code mapping virtual array library for C
 
 ## usage: {使用方法:}
 
-## CodeMap_create(), CodeMap_delete(CodeMap map)
-## CodeMap_get(CodeMap map, int index)
-## CodeMap_set(CodeMap map, int index, int value)
+### CodeMap map = CodeMap_create();
+### CodeMap_delete(CodeMap map);
+### int value = CodeMap_get(CodeMap map, int index);
+### CodeMap_set(CodeMap map, int index, int value);
 
 ```c
 #include "codemap.h"
 
 main()
 {
-  CodeMap cmap;
-  int idx, code;
+  CodeMap map;
+  int index, value;
 
   /* first, create/allocate */
-  cmap = CodeMap_create();
+  map = CodeMap_create();
 
-  idx = 0x3000;
+  index = 0x3000;
 
-  code = CodeMap_get(cmap, idx);    /* get --> (-1) */
-  CodeMap_set(cmap, idx, 0x25A0);   /* set new value --> cmap[idx] = val */
-  code = CodeMap_get(cmap, idx);    /* get the value --> cmap[idx] */
+  value = CodeMap_get(map, index);    /* get --> (-1) means NOT_FOUND */
+  CodeMap_set(map, index, 0x25A0);    /* set new value --> map[index] = value */
+  value = CodeMap_get(map, index);    /* get the value --> map[index] */
 
   /* last, delete/free */
-  CodeMap_delete(cmap);
+  CodeMap_delete(map);
 }
 ```
 
