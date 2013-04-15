@@ -1,10 +1,18 @@
-Character code mapping virtual array library
-====
+CodeMap.c
+==========================
 
-https://github.com/LightSpeedC/c-codemap-lib#readme
+LightSpeedWorks pages {光速工房}
 
+Character code mapping virtual array library for C
+{文字コードマッピング仮想配列ライブラリ(C向け)}
 
-Usage:
+[LightSpeedWorks/CodeMap.c#readme] (https://github.com/LightSpeedWorks/CodeMap.c#readme "LightSpeedWorks/CodeMap.c#readme")
+
+## usage: {使用方法:}
+
+## CodeMap_create(), CodeMap_delete(CodeMap map)
+## CodeMap_get(CodeMap map, int index)
+## CodeMap_set(CodeMap map, int index, int value)
 
 ```c
 #include "codemap.h"
@@ -28,7 +36,6 @@ main()
 }
 ```
 
-See also: https://github.com/LightSpeedC/c-codemap-lib/blob/master/doc/codemap.xls
+See also: https://github.com/LightSpeedWorks/CodeMap.c/blob/master/doc/codemap.xls
 
 That's all.
-
