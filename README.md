@@ -1,12 +1,12 @@
 ﻿CodeMap.c
 ==========================
 
-LightSpeedWorks pages {光速工房}
+LightSpeedWorks {光速工房}
 
-Character code mapping virtual array library for C
+Character code mapping virtual array library for C <br/>
 {文字コードマッピング仮想配列ライブラリ(C向け)}
 
-[LightSpeedWorks/CodeMap.c#readme] (https://github.com/LightSpeedWorks/CodeMap.c#readme "LightSpeedWorks/CodeMap.c#readme")
+[LightSpeedWorks/CodeMap.c#readme] (https://github.com/LightSpeedWorks/CodeMap.c#readme)
 
 ## usage: {使用方法:}
 
